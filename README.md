@@ -5,11 +5,24 @@ This repository contains deliverables from CS320: Software Test, Automation QA.
 ## Contents
 
 ### 📁 Portfolio Artifacts 📁 CS 320
-**Artifact 1: Project One Contact Service Files**
+**Artifact 1: Contact Service Files**
 * [Contact.java](Contact.java)
 * [ContactService.java](ContactService.java)
 * [ContactTest.java](ContactTest.java)
 * [ContactServiceTest.java](ContactServiceTest.java)
+
+**Artifact 2: Task Service Files**
+* [Task.java](Task.java)
+* [TaskService.java](TaskService.java)
+* [TaskTest.java](TaskTest.java)
+* [TaskServiceTest.java](TaskServiceTest.java)
+
+**Artifact 3:  Appointment Service Files**
+* [Appointment.java](Appointment.java)
+* [AppointmentService.java](AppointmentService.java)
+* [AppointmentTest.java](AppointmentTest.java)
+* [AppointmentServiceTest.java](AppointmentServiceTest.java)
+
 * *Description:* Java-based back-end service files containing a strict validation framework handling unique IDs, contact fields, and targeted JUnit 5 exception testing rules.
 
 **Artifact 2: Project Two Summary and Reflections Report**

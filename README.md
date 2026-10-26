@@ -23,7 +23,7 @@ This repository contains deliverables from CS320: Software Test, Automation QA.
 * [AppointmentTest.java](AppointmentTest.java)
 * [AppointmentServiceTest.java](AppointmentServiceTest.java)
 
-* *Description:* Java-based back-end service files containing a strict validation framework handling unique IDs, contact fields, and targeted JUnit 5 exception testing rules.
+* *Description:* Java service files containing validation framework handling unique IDs, contact fields, and targeted JUnit 5 exception testing rules.
 
 **Artifact 4: Project Two Summary and Reflections Report**
 * [ProjectTwo.docx](ProjectTwo.docx)
@@ -43,4 +43,4 @@ Interpreting the requirements meant creating tests to specifically break the lim
 
 #### How did you approach designing software?
 
-Structuring the test using the Arrange, Act, Assert format as best as possible was the main approach to help obtain 100% coverage and ensure the assertThrows blocks passed all raw null references directly to here, first. When designing the software architecture, the original plan was trying to wrap fields inside an Optional block for safety to prevent null values from being attacked. However, after getting the professor's feedback discussing how the Optional method adds too much performance overhead and is better used as a return type, utilizing the standard if statements became the design strategy. Keeping the same format and methods as previous packages helps with code maintenance as well. Staying up to date on the latest testing ideologies and current products is also essent
+Structuring the test using the Arrange, Act, Assert format as best as possible was the main approach to help obtain 100% coverage and ensure the assertThrows blocks passed all raw null references directly to here, first. When designing the software architecture, the original plan was trying to wrap fields inside an Optional block for safety to prevent null values from being attacked. However, learning how the Optional method adds too much performance overhead and is better used as a return type, utilizing the standard if statements was best for this case. Consistency with previous packages was maintained for easier maintenance, and staying current with testing methodologies remains essential.

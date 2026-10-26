@@ -13,7 +13,7 @@ This repository contains deliverables from CS320: Software Test, Automation QA.
 * *Description:* Java-based back-end service files containing a strict validation framework handling unique IDs, contact fields, and targeted JUnit 5 exception testing rules.
 
 **Artifact 2: Project Two Summary and Reflections Report**
-* [Project_Two_Report.docx](Project_Two_Report.docx)
+* [ProjectTwo.docx](ProjectTwo.docx)
 * *Description:* Comprehensive report outlining automated regression testing coverage, architectural optimization choices, and defensive software testing techniques.
 
 ---
